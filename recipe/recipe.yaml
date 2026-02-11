@@ -1,5 +1,6 @@
 context:
   version: "0.4.0"
+  python_min: 3.12
 
 package:
   name: moutils
@@ -21,9 +22,8 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
-    - anywidget
-    - marimo >=0.11.0
-    - requests >=2.30.0
+    - anywidget >=0.9.0
+    - requests >=2.0.0
 
 tests:
   - python:
@@ -35,7 +35,7 @@ tests:
 about:
   homepage: https://github.com/marimo-team/moutils
   documentation: https://marimo-team.github.io/moutils/
-  summary: Utility functions used in marimo
+  summary: Utility functions used in marimo.
   license: MIT
   license_file: LICENSE
   description: |
