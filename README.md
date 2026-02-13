@@ -7,7 +7,7 @@ Home: https://github.com/marimo-team/moutils
 
 Package license: MIT
 
-Summary: Utility functions used in marimo
+Summary: Utility functions used in marimo.
 
 Documentation: https://marimo-team.github.io/moutils/
 
