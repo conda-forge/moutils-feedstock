@@ -1,5 +1,5 @@
 context:
-  version: "0.4.2"
+  version: "0.4.4"
   python_min: 3.12
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/m/moutils/moutils-${{ version }}.tar.gz
-    sha256: cb770d491aaae3e9ef4e0fd00b88e786d58cedc1a2a793dc22ab62bce61c6aee
+    sha256: a4b46b52db475af928cb441e9421648ba5afefd7e1a6078805018e98a4990d30
 
 build:
   script: ${{ PYTHON }} -m pip install .
